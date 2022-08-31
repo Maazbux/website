@@ -1,0 +1,290 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website - maaz bukhsh</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6fd61e9359.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Servies</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text"></div>
+        <br>
+        <h1 class="pinkcolor">Hi, i m Maaz</h1>
+        <h1 class="pinkcolor2">From Pakistan</h1><br>
+         <p class="pinkcolor3"> <i>Graphics Designer</i></p>
+    </div>
+  </div>
+  <!--- --------about-------- --->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <P>Hello, my name is Maaz. I am a professional graphic designer with over 2.5 years of experience. I have  experience in designing Logos, Products designing, Illustration, Twitc Emotes, Pop up ads, Gifs, Poster,
+                  Banner, Flyer, Brouchers, Business cards, Social media ads and any kind of custome design.</P>
+
+                  <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                  </div>
+                  <div class="tab-contents active-tab" id="skills">
+                    <ul> 
+                      <div class="social-icons1">
+                        <li><span>Graphics Design</span><br>
+                        <a href=""><img src="images/illustrator.png"></a>
+                        <a href=""><img src="images/photoshop.png"></a>
+                        <a href=""><img src="images/premiere-pro.png"></a>
+                        <a href=""><img src="images/indesign.png"></a>
+                        </li>
+                        <li><span>UI/UX Design</span><br>
+                        <a href=""><img src="images/xd.png"></a>
+                        <a href=""><img src="images/figma.png"></a>
+                        </li>
+                        <li><span>Logo Design</span><br>
+                        <a href=""><img src="images/illustrator.png"></a>
+                        <a href=""><img src="images/photoshop.png"></a>
+                        </li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2022 - Current</span><br>Professional Graphics and UI/UX Designer at Advertisement company </li>
+                        <li><span>2020 - 2021</span><br> junior Designer at Private company</li>
+                        <li><span>2019 - 2020</span><br>Work as a learner Desiner on Internship</li>
+                        </ul>
+                  </div>
+                  <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2022 - Current</span><br>B.S in computer Science </li>
+                        <li><span>2022</span><br>Complete Intermediate.</li>
+                        <li><span>2020</span><br>Complete Matriculation.</li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!--------services-------- --->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My services</h1>
+    <div class="services-list">
+      
+      <div>
+        <i class="fa-regular fa-object-ungroup"></i>
+        <h2>Graphics Design</h2>
+        <p>Design Any kind of custome design and much more etc.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-crop-simple"></i>
+        <h2>Logo </h2>
+        <h2>Design</h2>
+        <p>Design professional or minimalist or any type of logo you want.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-compass-drafting"></i>
+        <h2>UI/UX</h2>
+        <h2>Design</h2>
+        <p>Design Web/App Interfaces</p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>s
+<!---------portfolio------------>
+<div id="portfolio"></div>
+<div class="container"></div>
+<h1 class="sub-title">My Work</h1>
+ <div class="work-list">
+  <div class="work">
+    <img src="images/work-1.png">
+    <div class="layer">
+      <h3>Previous work</h3>
+      <p></p>
+      <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+    </div>
+  </div>
+  <div class="work">
+    <img src="images/work-2.png">
+    <div class="layer">
+      <h3>Previous work</h3>
+      <p></p>
+      <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+    </div> 
+  </div>
+  <div class="work">
+    <img src="images/work-3.png">
+    <div class="layer">
+      <h3>Previous work</h3>
+      <p></p>
+      <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+    </div>
+  </div>
+ </div>
+ <!-------------------------------------------------------------------------------------------->
+ <div id="portfolio2"></div>
+ <div class="container"></div>
+ <div class="work2-list">
+  <div class="work2">
+    <img src="images/work-4.png">
+    <div class="layer2">
+    <h3>Previous work</h3>
+    <p></p>
+    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+  </div>
+  </div>
+  <div class="work2">
+    <img src="images/work-5.png">
+    <div class="layer2">
+    <h3>Previous work</h3>
+    <p></p>
+    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+  </div>
+  </div>
+  <div class="work2">
+    <img src="images/work-6.png">
+    <div class="layer2">
+    <h3>Previous work</h3>
+    <p></p>
+    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+  </div>
+  </div>
+ </div>
+ <!---------------------------------------------------------------------------------------->
+ <div id="portfolio3"></div>
+ <div class="container"></div>
+ <div class="work3-list">
+  <div class="work3">
+    <img src="images/illustration.png">
+    <div class="layer3">
+    <h3>Previous work</h3>
+    <p></p>
+    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+  </div>
+  </div>
+ </div>
+ <!--------------------work 4 ---------------->
+ <div id="portfolio4"></div>
+ <div class="container"></div>
+ <div class="work4-list">
+  <div class="work4">
+    <img src="images/illustration 2 .png">
+    <div class="layer4">
+    <h3>Previous work</h3>
+    <p></p>
+    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+  </div>
+  </div>
+ </div>
+ <a href="#" class="btn">See more</a>
+
+</div>
+<!-----------contact----------->
+<div id="contact">
+<div class="conatiner">
+<div class="row">
+  <div class="contact-left">
+    <h1 class="sub-title"> Contact Me</h1>
+    <p><i class="fa-solid fa-paper-plane"></i> bukhshmaaz1@gmail.com</p>
+    <P><i class="fa-solid fa-square-phone"></i> +92-347-3011317</P>
+    <div class="socila-icons">
+           <a href="profile link here">
+           <a href="https://www.fiverr.com/maazbux10?up_rollout=true"><img src="images/fiverr (2).png"></a>
+           <a href="https://www.instagram.com/designcreators111/"><img src="images/instagram (2).png"></a>
+           <a href="https://twitter.com/MaazBukhsh1"><img src="images/twitter.png"></a>
+           <a href="https://www.linkedin.com/in/maaz-bukhsh-44048b223/"><img src="images/linkedin (1).png"></a>
+           <a href="https://github.com/Maazbux/Maazbux"><img src="images/github.png"></a>
+           
+           <a href=""><a href="https://www.flaticon.com/free-icons/fiverr" title="fiverr icons"></a></i></a>
+    </div>
+    <a href="images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+  </div>
+  <div class="contact-right">
+    <form name="submit-to-google-sheet">
+     <input type="text" name="Name" placeholder="Your Name" required>
+     <input type="email" name="Email" placeholder="Your Email" required>
+     <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+     <button type="submit" class="btn btn2">Submit</button>
+    </form>
+    <span id="msg"></span>
+  </div>
+</div>
+</div>
+<div class="mywork">
+  <p> <i class="fa-brands fa-instagram"></i> Please check more work on instagram </p>
+</div>
+<div class="copyright">
+  <p>Copyright ©2022. Created <i class="fa-solid fa-heart"></i>  By ---Maaz ---Bukhsh.</p>
+</div>
+
+</div>
+<script>  
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+for(tablink of tablinks){
+tablink.classList.remove("active-link");
+}
+for( tabcontent of tabcontents){
+tabcontent.classList.remove("active-tab");
+}
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+<script>
+
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right = "0";
+}
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyQIjVvBm4c0CGhz_ZoaRSGNxh9kOGzOZ-_OMXKVmflymhDeQ3Q02iSIuwbX5nwzQ_9/exec '
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent sucessfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },3000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html> 
